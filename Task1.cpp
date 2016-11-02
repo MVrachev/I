@@ -3,20 +3,14 @@
 using namespace std;
 
 /*
-Задача 1. Реализирайте функция
-char* generateLookAndSay(int level);
-Която генерира редицата look-and-say от ред level и я връща като символен низ, заделен
-динамично с точния размер.
-Редицата започва от 1 (ред 1) и всеки следващ ред се получава от „прочитане“ на
-предния. Ето първите няколко редици
-1, 11 (едно 1), 21 (две 1), 1211 (едно 2, едно 1), 111221 (едно 1, едно 2, две 1), 312211 (три
-1, две 2, едно 1), 13112221, .....
 
-Пример:
-Вход:
-7
-Резултат:
-13112221
+Task 1
+Create a function: 
+char* generateLookAndSay(int level);
+
+which generate the line look-and-say from a row level and returns it as a string
+with dynamic memory allocation.
+
 */
 
 
