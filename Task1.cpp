@@ -11,6 +11,19 @@ char* generateLookAndSay(int level);
 which generate the line look-and-say from a row level and returns it as a string
 with dynamic memory allocation.
 
+The row starts from 1(row 1) and every next row is created by "reading" of the last row.
+Here are the first few rows:
+
+1, 11 (one 1), 21 (two 1), 1211 (one 2, one 1), 111221 (one 1, one 2, two 1), 312211 (three
+1, two 2, one 1), 13112221, .....
+
+Example: 
+Input:
+7
+
+Output (result):
+13112221
+
 */
 
 
